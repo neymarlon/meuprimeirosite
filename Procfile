@@ -1,0 +1,1 @@
+web: gnicorn meusite:app
