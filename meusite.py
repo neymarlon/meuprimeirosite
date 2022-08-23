@@ -13,9 +13,9 @@ def contatos():
     return render_template("contatos.html")
 
 
-@app.route("/usuarios/<nome_usuarios>")
-def usuarios(nome_usuarios):
-    return render_template("usuarios.html", nome_usuarios=nome_usuarios)
+#@app.route("/usuarios/<nome_usuarios>")
+#def usuarios(nome_usuarios):
+#    return render_template("usuarios.html", nome_usuarios=nome_usuarios)
 
 
 if __name__ == "__main__":
