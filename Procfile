@@ -1,1 +1,1 @@
-web: gnicorn meusite:app
+web: gunicorn meusite:app
